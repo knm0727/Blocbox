@@ -727,6 +727,14 @@ header .hero img {
    }
 }
 
+.cog-menu {
+   font-size: 14px;
+}
+
+.cog-menu a {
+   text-align: left !important; 
+}
+
 
 
 
