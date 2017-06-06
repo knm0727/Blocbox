@@ -341,7 +341,17 @@ header .hero img {
 
 /****** All MEDIA ********/
 
-@media (min-width: 992px){
+
+@media (max-width: 600px) {
+   header .hero p {
+      font-size: 15px;
+   }
+}
+
+
+
+
+@media (min-width: 991px){
    footer{
      background-color: #3498DB;
      background-image: linear-gradient(to left,
@@ -366,15 +376,7 @@ header .hero img {
    }
 }
 
-@media (max-width: 600px) {
-.box {
- width: 247px;
-}
 
- @media (max-width: 600px) {
-   benefits i {
-    size: 8px;
-   }
 
    
 
