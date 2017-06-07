@@ -97,7 +97,7 @@ font-weight: normal;
 margin: 95px 0 0;
 }
 header .hero p{
-   font-size: 22px;
+   font-size: 15px;
    line-height: 26px;
    font-weight: 100;
    margin: 10px 0 40px;
@@ -342,17 +342,50 @@ header .hero img {
 /****** All MEDIA ********/
 
 
-@media (max-width: 600px) {
-   header .hero p {
-      font-size: 15px;
+@media (min-width: 768px) {
+   .container {
+     width: 750px;
    }
-}
-
-
-
-
-@media (min-width: 991px){
-   footer{
+   header .hero p{
+   font-size: 22px;
+   line-height: 30px;
+   }
+ }
+ @media (min-width: 992px) {
+   .container {
+     width: 970px;
+   }
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
+   }
+   header .hero h1 {
+      font-size: 48px;
+      font-weight: normal;
+      margin: 95px 0 0;
+   }
+   header .hero p{
+      font-size: 22px;
+      line-height: 26px;
+      font-weight: 100;
+      margin: 10px 0 40px;
+   }
+   header .hero img {
+      display: block;
+      margin:3cm auto 0;
+   }
+   footer .left-footer-block, footer .middle-footer-block {
+   width: 33%;
+    }
+    footer .right-footer-block {
+      width: 34%;
+    }
+    footer{
      background-color: #3498DB;
      background-image: linear-gradient(to left,
         #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
@@ -368,13 +401,20 @@ header .hero img {
    footer .logo{
      padding: 2em 0 2em 1.5em;
    }
-}
+   
+ }
+ @media (min-width: 1200px) {
+   .container {
+     width: 1170px;
+   }
+ }
 
-@media (max-width: 600px) {
+
+/*@media (max-width: 600px) {
    header .hero p {
       font-size: 15px;
    }
-}
+}*/
 
 
 
