@@ -68,8 +68,8 @@
 }
 .drop-up .dropit-submenu {
     top: auto;
-    bottom: 32px;
-    right: 4px;
+    bottom: 0px;
+    right: 2px;
 }
 .drop-up.dropit .dropit-open .dropit-submenu:after {
     top: auto;
