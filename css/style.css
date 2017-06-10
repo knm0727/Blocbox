@@ -161,7 +161,7 @@ header .hero img {
  }
  .pricing ul {
    margin:0 auto;
-   padding:2em 0;
+  /* padding:2em 0; !!!!!!!taken off for mobile padding*/ 
  }
  .pricing ul li {
    list-style-type: none;
