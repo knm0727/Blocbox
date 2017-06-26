@@ -22,10 +22,11 @@
     right: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
-    min-width: 100px;
+    min-width: 128px;
     list-style: none;
 	padding: 20px;
 	margin: 20px 0 0;
+    font-size: 14px;
 }
 .dropit .dropit-open .dropit-submenu {
     display: block;
@@ -59,6 +60,10 @@
     font-weight:100;
 }
 
+.dropit .dropit-open .dropit-submenu li i {
+    margin-right: 5px;
+}
+
 /*
  *  DROP UP OVER-WRITES
  */
@@ -76,4 +81,8 @@
     bottom: -8px;
     border-width: 8px 8px 0px 8px;
     right: 6px;
+}
+
+.dropit .dropit-open .dropit-submenu.cog-menu li {
+    float: left;
 }
